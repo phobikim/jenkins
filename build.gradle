@@ -33,6 +33,4 @@ project.ext.archiveVersion = "v1.0"
 bootJar{
 	archiveFileName = project.ext.archivesBaseName +'-'+ project.ext.archiveVersion+'.jar'
 }
-tasks.named(' ') {
-	useJUnitPlatform()
-}
+
