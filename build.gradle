@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.7.14'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+	id 'war'
 }
 
 java {
@@ -33,4 +34,9 @@ project.ext.archiveVersion = "v1.0"
 bootJar{
 	archiveFileName = project.ext.archivesBaseName +'-'+ project.ext.archiveVersion+'.jar'
 }
+
+bootWar {
+	archiveFileName = project.ext.archivesBaseName + '-' + project.ext.archiveVersion + '.war'
+}
+
 
