@@ -37,7 +37,7 @@ bootJar{
 
 bootWar {
 //	archiveFileName = project.ext.archivesBaseName + '-' + project.ext.archiveVersion + '.war'
-	archiveFileName = project.ext.archivesBaseName
+	archiveFileName = project.ext.archivesBaseName + '.war'
 }
 
 
