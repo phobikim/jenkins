@@ -28,7 +28,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-project.ext.archivesBaseName = 'demomerong'
+project.ext.archivesBaseName = 'demo'
 project.ext.archiveVersion = "v1.0"
 
 bootJar{
