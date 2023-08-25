@@ -28,7 +28,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-project.ext.archivesBaseName = 'jenkins'
+project.ext.archivesBaseName = 'demomerong'
 project.ext.archiveVersion = "v1.0"
 
 bootJar{
@@ -36,7 +36,8 @@ bootJar{
 }
 
 bootWar {
-	archiveFileName = project.ext.archivesBaseName + '-' + project.ext.archiveVersion + '.war'
+//	archiveFileName = project.ext.archivesBaseName + '-' + project.ext.archiveVersion + '.war'
+	archiveFileName = project.ext.archivesBaseName
 }
 
 
